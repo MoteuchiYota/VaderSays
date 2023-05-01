@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Author: Dhanen El Noob Rabioso-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.proven.dnf_vader_says" >
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Dhanen's Vader Says"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".VaderSaysActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Lose"></activity>
+        <activity android:name=".ScoreBoard"></activity>
+
+    </application>
+
+</manifest>

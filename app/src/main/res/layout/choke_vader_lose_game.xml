@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:soundEffectsEnabled="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:soundEffectsEnabled="false"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/chokinglost"
+                android:layout_width="match_parent"
+                android:layout_height="473dp"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/vaderchoke2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jedifont"
+                android:text="introduce tu nombre, escoria rebelde"
+                android:soundEffectsEnabled="false"
+                android:textAlignment="center"
+                android:textColor="#d5d900"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/inputnicktext"
+            android:layout_width="257dp"
+            android:layout_height="85dp"
+            android:ems="10"
+            android:fontFamily="@font/jedifont"
+            android:inputType="textPersonName"
+            android:textColor="#d5d900"
+            android:soundEffectsEnabled="false"
+            android:textSize="32dp"
+            android:text="anónimo"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/inputnickbutton"
+            android:layout_width="149dp"
+            android:layout_height="90dp"
+            android:background="#172438"
+            android:fontFamily="@font/jedifont"
+            android:text="0k"
+            android:textAlignment="center"
+            android:textColor="#d5d900"
+            android:soundEffectsEnabled="false"
+            android:textSize="50dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgrscoreboard"
+    android:soundEffectsEnabled="false"
+    android:onClick="screenTapped">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:fontFamily="@font/jedifont"
+        android:soundEffectsEnabled="false"
+        android:textColor="#d5d900"
+        android:text="tabla de puntuaciones" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:soundEffectsEnabled="false"
+        android:src="@drawable/linesaber" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="532dp"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/pointslist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jedifont"
+            android:gravity="center"
+            android:soundEffectsEnabled="false"
+            android:text=""
+            android:textColor="#fffda6"
+            android:textSize="14dp" />
+
+    </ScrollView>
+
+</LinearLayout>
